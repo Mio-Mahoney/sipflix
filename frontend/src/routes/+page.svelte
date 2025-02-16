@@ -1,8 +1,8 @@
 <script lang="ts">
-	import ModeSelection from "$lib/ModeSelect.svelte";
 	import Search from "$lib/Search.svelte";
 	import { id } from "$lib/store";
 	import Thumbnail from "$lib/Thumbnail.svelte";
+	import Loading from "$lib/Loading.svelte";
 </script>
 
 <h1
@@ -17,6 +17,6 @@
 {#if $id}
 	<Thumbnail />
 	<div class="justify-center items-center flex w-full">
-		<ModeSelection />
+		<Loading />
 	</div>
 {/if}
