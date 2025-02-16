@@ -1,6 +1,6 @@
 <script lang="ts">
 </script>
 
-<div class="flex justify-center items-center gap-x-5 h-screen">
-	<div class="w-[50%]"></div>
-</div>
+<h1 class="text-center m-10 text-[96px]">SipFlix</h1>
+
+<input type="text" />
