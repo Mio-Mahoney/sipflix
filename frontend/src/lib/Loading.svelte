@@ -13,34 +13,39 @@
 </script>
 
 <div
-    class="relative w-16 h-24 border-4 border-yellow-700 rounded-b-lg overflow-hidden"
+    class="relative w-16 h-24 border-4 border-yellow-700 rounded-b-lg overflow-shown"
 >
+    <!-- Handle -->
+    <div
+        class="absolute top-4 right-[-24px] w-6 h-12 border-4 border-yellow-700
+               rounded-r-full bg-transparent z-10"
+    ></div>
+
     <!-- Beer Liquid -->
     <div
         class="absolute bottom-0 w-full bg-yellow-500 transition-all duration-500"
         style="height: {fillLevel}%"
-    >
-        {#if fillLevel > 2}
-            {#each Array(5).fill(0) as _, i}
-                <div
-                    class="absolute w-2 h-2 bg-white rounded-full opacity-70 animate-bubble"
-                    style="
+    ></div>
+
+    <!-- Foam (Moves with Beer) -->
+    <div
+        class="absolute left-0 w-full bg-white rounded-b-full transition-all duration-500 overflow-hidden"
+        style="bottom: {fillLevel}%; height: 8px;"
+    ></div>
+
+    <!-- Bubbles (Only Appear When Beer is Present) -->
+    {#if fillLevel > 0}
+        {#each Array(5).fill(0) as _, i}
+            <div
+                class="absolute w-2 h-2 bg-white rounded-full opacity-70 animate-bubble overflow-hidden"
+                style="
             bottom: {Math.random() * fillLevel}%;
             left: {Math.random() * 100}%;
             animation-delay: {i * 0.3}s;
           "
-                ></div>
-            {/each}
-        {/if}
-    </div>
-
-    <!-- Foam (Moves with Beer) -->
-    <div
-        class="absolute left-0 w-full bg-white rounded-b-full transition-all duration-500"
-        style="bottom: {fillLevel}%; height: 8px;"
-    ></div>
-
-    <!-- Bubbles -->
+            ></div>
+        {/each}
+    {/if}
 </div>
 
 <style>
