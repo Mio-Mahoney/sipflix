@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ModeSelection from "$lib/ModeSelect.svelte";
 	import Search from "$lib/Search.svelte";
+	import Loading from "$lib/Loading.svelte";
 </script>
 
 <h1 class="text-center m-10 text-neon-carrot-600 text-[96px]">SipFlix</h1>
@@ -10,4 +11,5 @@
 </div>
 <div class="justify-center items-center flex w-full">
 	<ModeSelection />
+	<Loading />
 </div>
