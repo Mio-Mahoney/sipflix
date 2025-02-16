@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Movieselection from "$lib/movieselection.svelte";
+	import ModeSelection from "$lib/ModeSelect.svelte";
 </script>
 
 <h1 class="text-center m-10 text-[96px]">SipFlix</h1>
@@ -11,5 +11,5 @@
 	/>
 </div>
 <div class="justify-center items-center flex w-full">
-	<Movieselection />
+	<ModeSelection />
 </div>
