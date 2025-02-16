@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Movieselection from "$lib/movieselection.svelte";
+	import ModeSelection from "$lib/ModeSelect.svelte";
 	import Search from "$lib/Search.svelte";
 </script>
 
@@ -9,5 +9,5 @@
 	<Search />
 </div>
 <div class="justify-center items-center flex w-full">
-	<Movieselection />
+	<ModeSelection />
 </div>
