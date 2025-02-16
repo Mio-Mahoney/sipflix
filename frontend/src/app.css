@@ -16,7 +16,7 @@
 }
 
 body {
-  @apply bg-skyblue-950 text-white
+  @apply bg-neon-carrot-100 text-white
 }
 
 @theme {
