@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import { DarkMode } from 'flowbite-svelte'
-import flowbitePlugin from 'flowbite/plugin'
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
   darkMode: 'selector',
@@ -22,6 +20,6 @@ export default {
       }
     },
   },
-  plugins: [flowbitePlugin],
+  plugins: [],
 }
 
