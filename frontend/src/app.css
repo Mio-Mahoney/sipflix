@@ -20,6 +20,11 @@ body {
 }
 
 @theme {
+  --font-sans: "Roboto", sans;
+  --font-serif: "Forum", sans-serif;
+  --font-display: "Montserrat", display;
+
+
   --color-skyblue-50: oklch(92.568% 0.05114 221.49);
   --color-skyblue-100: oklch(90.331% 0.06704 221.51);
   --color-skyblue-200: oklch(86.087% 0.09704 222.03);
