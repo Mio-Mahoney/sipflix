@@ -5,3 +5,43 @@
 body {
   @apply bg-gray-800 text-white
 }
+
+@theme {
+  --color-skyblue-50: oklch(92.568% 0.05114 221.49);
+  --color-skyblue-100: oklch(90.331% 0.06704 221.51);
+  --color-skyblue-200: oklch(86.087% 0.09704 222.03);
+  --color-skyblue-300: oklch(82.072% 0.12208 224.27);
+  --color-skyblue-400: oklch(78.811% 0.14018 226.87);
+  --color-skyblue-500: oklch(75.818% 0.15209 231.33);
+  --color-skyblue-600: oklch(68.448% 0.14021 232.33);
+  --color-skyblue-700: oklch(55.389% 0.113 232.01);
+  --color-skyblue-800: oklch(41.769% 0.08344 230.22);
+  --color-skyblue-900: oklch(26.602% 0.05169 227.63);
+  --color-skyblue-950: oklch(18.18% 0.03405 223.7);
+  --color-honeydew: oklch(90.869% 0.02385 139.44);
+  --color-double-colonial-white-300: oklch(93.579% 0.04829 94.277);
+  --color-double-colonial-white-400: oklch(89.896% 0.07647 95.339);
+  --color-double-colonial-white-500: oklch(84.904% 0.11155 95.121);
+  --color-sandy-brown-50: oklch(99.059% 0.00504 48.688);
+  --color-sandy-brown-100: oklch(95.96% 0.02046 48.499);
+  --color-sandy-brown-200: oklch(89.76% 0.05227 49.967);
+  --color-sandy-brown-300: oklch(83.882% 0.08575 48.781);
+  --color-sandy-brown-400: oklch(78.304% 0.12051 48.249);
+  --color-sandy-brown-500: oklch(71.351% 0.16555 45.904);
+  --color-sandy-brown-600: oklch(65.014% 0.1936 41.555);
+  --color-sandy-brown-700: oklch(53.976% 0.15778 42.166);
+  --color-sandy-brown-800: oklch(42.352% 0.11974 43.273);
+  --color-sandy-brown-900: oklch(29.719% 0.07936 44.973);
+  --color-sandy-brown-950: oklch(23.111% 0.05713 47.166);
+  --color-neon-carrot-50: oklch(99.28% 0.00416 56.376);
+  --color-neon-carrot-100: oklch(96.593% 0.02201 63.21);
+  --color-neon-carrot-200: oklch(91.573% 0.05744 64.458);
+  --color-neon-carrot-300: oklch(86.61% 0.09191 62.408);
+  --color-neon-carrot-400: oklch(82.111% 0.12575 61.538);
+  --color-neon-carrot-500: oklch(77.817% 0.15594 58.578);
+  --color-neon-carrot-600: oklch(72.76% 0.1868 51.268);
+  --color-neon-carrot-700: oklch(62.118% 0.16377 50.192);
+  --color-neon-carrot-800: oklch(49.632% 0.1284 51.557);
+  --color-neon-carrot-900: oklch(36.128% 0.09123 53.405);
+  --color-neon-carrot-950: oklch(29.001% 0.07092 56.06);
+}
